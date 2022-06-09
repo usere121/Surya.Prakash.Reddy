@@ -1,0 +1,193 @@
+Hi, this is Surya Prakash Reddy having 4+ years of experience in IT industry and around 4 years of  
+experience in DevOps and AWS (Cloud). Currently working as a DevOps engineer in HP Clobdata 
+As part of my role, I am responsible to setup and Manage DevOps Cl/CD pipelines and Infra using AWS cloud.
+
+In that position, I have worked on diff diff tolls like
+--coming to DevOps 
+SCM tools: Git.Github, GitLab, and TFS
+Build Tools--Maven and Ant
+Appsers we are using --tomcat and weblogic
+Webservers--Appache
+Static Code analasis---SonarQube
+Artifact ---Nexus
+CI/CD tool--Jenkins and Azure DevOps
+Containerazions tools--Docker, Kubernetes
+Continuous Deployment and Configuration Management-- Ansible
+
+
+--Comming to Cloude side 
+  I have worked on AWS
+  --AWS(ec2,efs,ebs,ses, SNS, aws transfer family,route 53,SG,NACL,s3,IAM,AMI,RDS,VPC, Ecs, Eks , ECR)
+
+--Comming to Automation --I have worked Bash Scripting
+
+--Comming to OS level --I have worked on LINUX and WINDOWS
+
+--comming to monitoring --I have worked on newrelic Nagioes, cloud watch and 24/7 and Grafan, Promethusis and Splunk.
+
+--comming to Ticketing Tools   --Jira
+
+____Comming to Our Roles and Responsibilites
+• Created and Maintained Github repositories, branches and tags for multiple projects.
+• Managing the projects in GITHUB repository.
+• Coordinate/assist developers with establishing and applying appropriate branching, merging conventions using GIT SCM.
+• Configure Maven and Ant build with Jenkins based on type of project.
+• Automating the Build process using Git and Maven.
+
+
+• Responsible for Dockerizing applications.
+• I am very good in writting Docker Files and Docker Compose files Then We are going to create Docker Custome Images and Containers
+• And we have created docker volumes and Docker Networks
+• Configured Docker private registry’s to maintain Docker images for future usage.
+• I am Responsible for creating Kubernetes manifest files like daemon sets, replica sets, deployments, Service files and managing Containers and Pods.
+• I am Responsible for creating & configuring  persistent volumes ,persistent volume claims in k8's.
+• And for health purpose we are going to create live ness and ready ness probs
+• Configured HPA and secrets and config maps 
+• We have setup Managed and Self Managed Cluster using AWS Infra in K8’s.
+• And we are going to implement CI/CD proccess into with Jenkins using Jenkins file that's why we are going to integrate
+  with jenkins into git,maven,sonarqube,docker,nexus and k8's.      
+•Configure Email functionality with Jenkins for sending notification for Job will be failure are success throug Email
+•Configured Git with Jenkins and scheduled by jobs using Poll SCM option.
+--Install CSR certificates and configure in AWS certificate manger and in web servers and In load Balancers
+        
+
+•Setting up Ansible control server. Managing Ansible hosts. Writing playbooks.
+
+1) Creating Users , Groups, Assinging Users to Groups.
+2) Copying Files and managining Permisions.
+3) Start,Stop,Restarting Services.
+4) Installation Of Softwares.
+5) Deploying an Application. etc
+
+
+
+-----Comming to AWS(ec2,efs,ebs,ses,aws transfer family,riute 53,SG,NACL,s3,IAM,AMI,RDS,VPC,Cloud watch,Certificate manager, ECS, EKS, ECR, AS, LB)
+-----Azure(Subscription, Resource Group,Scale sets,Bastion Network, Storage, NetWorking(NSG, NIC and Subnets), Azure Monitor,Vnet,Subnets, 
+          Vnet Pearing, VPN gateways, Azure Backup, Azure Monitor,ARN Templates, Azure AD and RBAC)
+
+And Comming to CI/CD I have worked on Jenkins in that jenkins I have created Free style and Pipeline and Multibransh pipeline
+  And I have worked on Master slave also in the Jenkins
+In Jenkins level Whenever came request from Dev team That I will go and create New branch for developing the code and whoever wnat to access that particular branch I have given
+As a DevOps Engineer and after developing the code again one more request came form Dev Team for setup CI/CD setup at that time We have to need configure CI/CD Job
+
+In that Jenkins level We are using pipeline ---pipeline are two types 1)Diclarative 2)Grovvy Script
+    --As of now we are using Grovvy Script in that script we have mentioned multiple stages 
+      1)checkout the code from Git Hub
+      2)Build the package
+      3)test the code  
+      4)Build the image 
+      5)push the image to private repo for feature usage
+      6)Deploye the app using K8's Cluster 
+      7)and setups maven tool in
+      8)Email
+
+Daily Activities:-
+==================
+
+then I will check my jira dash board and check is there any tickets are assigned to me okay ....
+
+is there any new tickets assigned to me based on priority worked on that....
+
+Firt I need to check pods status all pods are active or not after that any pod status is down    ----we are going to check and resolve that
+
+If any request came for setup CI/CD then We are going to create branch and configure CI/CD
+
+then every day came some request from customers ...
+after came request first create jira ticket and assigned  to who will be work and assign to him....
+monitor site 24/7 in that we have configured all infra and monitor it....    ---If any server 
+then I have monitored 4 fqs servers prod and non prod...
+after that I have connected to dev team and dB team and monitored team....
+we need to run scripts everyday like starting services and copy the files  to aws s3 bucket....
+
+
+GIT
+===
+Enable branching strategies.
+Managing git repositories using various git commands (like push, pull, merge, clone, branch, rebase etc..).
+Resolving the merge conflicts.
+Managing github/bitbucket user access by using CROWD server.
+
+Jenkins
+=======
+Setting Jenkins server.
+Master and slave configurations.
+Managing Cl/CD jobs Managing Jenkins plugins.
+Integration other DevOps tools like git, Maven, Ansible, SonarQube, Nexus etc..  
+
+
+Docker
+======
+Setup Docker environment.
+Writing Dockerfiles
+Creating custom images
+Setting up private Docker registry
+Creating & managing containers
+
+
+Ansible
+=======
+Setting up Ansible control server.
+Managing Ansible hosts.
+Writing playbooks and roles.
+
+
+Kubernetes
+==========
+Setup Kubernetes environment on AWS or on-premises
+Writing deployment files and service files
+Managing containers on pods
+Managing Kubernetes nodes
+nilesh.soni@emorphis.in
+
+
+What is stateless in k8's ?
+At a very basic level, as the name suggests, the term “stateless” means that no past data nor state is stored or needs to be 
+persistent when a new container is created. Stateless applications tend to include 
+containerized microservices apps, CDN, print services, or any short term workers.
+
+
+What is stateful in k8's ?
+Stateful applications save data to persistent disk storage for use by the server, by clients, and by other applications. ... 
+Persistent storage can be dynamically provisioned, so that the underlying volumes are created on demand. In Kubernetes, 
+you configure dynamic provisioning by creating a StorageClass.
+
+
+Helm helps in three key ways:
+
+Improves productivity
+Reduces the complexity of deployments of microservices
+Enables the adaptation of cloud native applications
+
+
+Why use Helm?
+Writing and maintaining Kubernetes YAML manifests for all the required Kubernetes objects can be a time consuming and tedious task. 
+For the simplest of deployments, you would need at least 3 YAML manifests with duplicated and hardcoded values. 
+Helm simplifies this process and creates a single package that can be advertised to your 
+
+
+
+
+
+Please find the attached profile and below details.
+
+NP: Immediate Joining.
+
+
+Regards,
+Siva
+
+
+What are the best practices we should follow in Dockerfile?
+1) Try to use alpine images where ever is possible.
+2) Don't install unneccessary packages/softwares in Dockerimage.We should have
+   only minimal packages/softwares which are required to be run our application.
+3) Try to reduce number of layes as much as possible, by mereging muttiple run commands
+   into a signle command whereever is possible.
+
+
+
+
+
+Friday--- 12:00 PM 4:30 Pm 2:00 PM 3:00 PM 6:45 PM
+Sat: 11:30 pm L&T  1:00 PM
+
